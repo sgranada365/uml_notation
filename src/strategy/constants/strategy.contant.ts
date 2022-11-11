@@ -5,7 +5,8 @@ import {
   WhastAppNotification,
 } from "../notificationTypes";
 
-export const strategies = new Map<typesNotification, INotification>([]);
-strategies.set(typesNotification.sms, new SmsNotification());
-strategies.set(typesNotification.email, new EmailNotification());
-strategies.set(typesNotification.whatsApp, new WhastAppNotification());
+export const strategies = new Map<typesNotification, INotification>([
+  [typesNotification.sms, new SmsNotification()],
+  [typesNotification.email, new EmailNotification()],
+  [typesNotification.whatsApp, new WhastAppNotification()],
+]);
