@@ -12,7 +12,7 @@ function main(){
   notificator.launchNotification({text:"Hello world!"});
   console.log("\n")
 
-  console.log("================WhatsApp================")
+  console.log("================Email================")
   notificator.setNotificationMethod("email");
   notificator.launchNotification({text:"Hello world!"});
   console.log("\n")
