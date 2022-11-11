@@ -13,9 +13,9 @@ npm i
 
 exect the following command:
 ```bash
-npm run start -- dist/<<folder_name>>
+npm run start dist/<<folder_name>>
 ```
 example:
 ```bash
-npm run start -- dist/aggregation
+npm run start dist/aggregation
 ```
