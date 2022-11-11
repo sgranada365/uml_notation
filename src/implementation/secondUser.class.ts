@@ -7,7 +7,7 @@ export class SecondUser implements ICandidate, IAnalist {
     return true;
   }
   applyToVacant(vacantId: number): boolean {
-    console.log("El usuario 2 a aplicado a la vacante");
+    console.log("El usuario 2 ha aplicado a la vacante");
     return true;
   }
 }
