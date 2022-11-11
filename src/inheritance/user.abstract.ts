@@ -1,7 +1,7 @@
 export abstract class User {
-  protected id: number;
-  protected name: string;
-  protected lastName: string;
+  public id: number;
+  public name: string;
+  public lastName: string;
 
   constructor(name: string, lastName: string) {
     this.id = Math.floor(Math.random() * 1000);

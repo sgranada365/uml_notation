@@ -6,7 +6,6 @@ export class Candidate extends User {
   }
 
   getPageId(): number {
-    super.name
     return this.pageId;
   }
 }

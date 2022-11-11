@@ -7,7 +7,9 @@ function main() {
   const analistUser = new Analist("Natalia", "Rodriguez", "Magneto");
   console.log("El candidato es un usuario? " + (candidateUser instanceof User));
   console.log("El analista es un usuario? " + (analistUser instanceof User));
-  console.log(`El userName del candidato es: ${candidateUser.generateUserName()}`);
+  console.log(
+    `El userName del candidato es: ${candidateUser.generateUserName()}`
+  );
   console.log(`El userName del analista es: ${analistUser.generateUserName()}`);
 }
 
