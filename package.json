@@ -1,0 +1,28 @@
+{
+  "name": "uml_notation",
+  "version": "1.0.0",
+  "description": "uml diagram class examples in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": "tsc --build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgranada365/uml_notation.git"
+  },
+  "keywords": [
+    "uml",
+    "design",
+    "patterns"
+  ],
+  "author": "Santiago Granada Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgranada365/uml_notation/issues"
+  },
+  "homepage": "https://github.com/sgranada365/uml_notation#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
