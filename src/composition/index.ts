@@ -1,7 +1,7 @@
 import { Questionnaire } from "./questionnaire.class";
 
 /* La composicion define ciclos de vida dependientes para ambas partes de la relacion, 
-    la parte total depende de las partes individuales y viceversa */
+    la parte total depende de las partes individuales */
 function main() {
   const firstQuestionnaire = new Questionnaire(1, "Questionnaire 1");
   const [firstQuestion] = firstQuestionnaire.questions;

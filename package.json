@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx tsc && node",
-    "strategy": "ts-node src/strategy"
+    "strategy": "ts-node src/strategy",
+    "aggregation": "ts-node src/aggregation",
+    "association": "ts-node src/association",
+    "composition": "ts-node src/composition",
+    "dependency": "ts-node src/dependency",
+    "implementation": "ts-node src/implementation",
+    "inheritance": "ts-node src/inheritance",
+    "memento": "ts-node src/memento"
   },
   "build": "tsc --build",
   "repository": {
