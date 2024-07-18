@@ -13,7 +13,12 @@
     "dependency": "ts-node src/dependency",
     "implementation": "ts-node src/implementation",
     "inheritance": "ts-node src/inheritance",
-    "memento": "ts-node src/memento"
+    "memento": "ts-node src/memento",
+    "solid:s": "ts-node src/principles/singleResponsability",
+    "solid:o": "ts-node src/principles/openClose",
+    "solid:l": "ts-node src/principles/liskov",
+    "solid:i": "ts-node src/principles/interfaceSegregation",
+    "solid:d": "ts-node src/principles/dependencyInversion"
   },
   "build": "tsc --build",
   "repository": {

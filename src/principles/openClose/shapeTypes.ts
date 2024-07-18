@@ -1,0 +1,5 @@
+export enum SHAPE_TYPES {
+  CIRCLE = "CIRCLE",
+  RECTANGLE = "RECTANGLE",
+  TRIANGLE = "TRIANGLE",
+}
