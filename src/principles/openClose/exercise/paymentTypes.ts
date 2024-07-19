@@ -1,0 +1,5 @@
+export enum PAYMENT_TYPES {
+  CREDIT_CARD = "CREDIT_CARD",
+  PAYPAL = "PAYPAL",
+  BITCOIN = "BITCOIN",
+}

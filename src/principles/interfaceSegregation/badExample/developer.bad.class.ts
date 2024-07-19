@@ -1,5 +1,6 @@
 import { IEmployee } from "./employee.interface";
 
+
 export class BadDeveloper implements IEmployee {
   writeCode(): void {
     console.info("Bad developer is writing code");

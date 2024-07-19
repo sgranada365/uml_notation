@@ -1,20 +1,14 @@
-import { MongoDatabase } from "./mongoDataBase.class";
-import { PostgresDatabase } from "./postgresDataBase.class";
-import { BadService } from "./service.bad.class";
-import { Service } from "./service.class";
+import { badExample } from "./badExample";
+import { goodExample } from "./goodExample";
 
 function main() {
-  const badService = new BadService();
-  badService.saveData("Bad data to storage");
+  console.log("Bad example: ");
+  badExample();
 
-  const mongoDB = new MongoDatabase();
-  const postgresDB = new PostgresDatabase();
+  console.log("\nGood example: ");
+  goodExample();
 
-  let service = new Service(mongoDB);
-  service.saveData("data to storage");
-
-  service = new Service(postgresDB);
-  service.saveData("data to storage");
+  console.log("\nExercise: ");
 }
 
 main();

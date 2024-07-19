@@ -1,23 +1,16 @@
-import { BadBicycle } from "./bicycle.bad.class";
-import { Bicycle } from "./bicycle.class";
-import { BadCar } from "./car.bad.class";
-import { Car } from "./car.class";
+import { badExample } from "./badExample";
+import { exercise } from "./exercise";
+import { goodExample } from "./goodExample";
 
 function main() {
-  const badCar = new BadCar();
-  const badBicycle = new BadBicycle();
-  badCar.startEngine();
-  badCar.startMove();
-  badBicycle.startEngine();
-  badBicycle.startMove();
+  console.log("Bad example: ");
+  badExample();
 
-  console.log();
+  console.log("\nGood example: ");
+  goodExample();
 
-  const car = new Car();
-  const bicycle = new Bicycle();
-  car.startEngine();
-  car.startMove();
-  bicycle.startMove();
+  console.log("\nExercise: ");
+  exercise();
 }
 
 main();
