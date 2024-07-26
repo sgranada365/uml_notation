@@ -1,3 +1,5 @@
+import { Mail } from "./mail.class";
+import { User } from "./user.class";
 import { BadUserExercise } from "./userExercise.bad";
 
 /**
@@ -12,8 +14,14 @@ import { BadUserExercise } from "./userExercise.bad";
  */
 
 export const exercise = () => {
-  const badUser = new BadUserExercise("Juan", "test@test.com");
-  badUser.save();
-  badUser.delete();
-  badUser.sendEmail("I'm the bad message");
+  // const badUser = new BadUserExercise("Juan", "test@test.com");
+  // badUser.save();
+  // badUser.delete();
+  // badUser.sendEmail("I'm the bad message");
+
+  const user = new User("Juanito Alcachofa", "test@test.com");
+  user.save();
+  user.delete();
+  const mail = new Mail();
+  mail.sendEmail(user.getEmail(), "Hallo Leute!");
 };
