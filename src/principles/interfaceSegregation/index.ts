@@ -1,4 +1,5 @@
 import { badExample } from "./badExample";
+import { exercise } from "./exercise";
 import { goodExample } from "./goodExample";
 
 function main() {
@@ -9,6 +10,7 @@ function main() {
   goodExample();
 
   console.log("\nExercise: ");
+  exercise();
 }
 
 main();
